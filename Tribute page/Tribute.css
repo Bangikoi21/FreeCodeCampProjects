@@ -1,0 +1,48 @@
+
+
+html, body {
+  text-align: center;
+  background-color: rgba(175, 150, 222, 0.067)
+
+}
+
+h1, h2, p {
+  text-align: center;
+  font-family: Times new roman, Georgia;
+  color: rgb(76, 5, 5);
+}
+
+#img-caption {
+  font-family: Arial;
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+#title {
+  font-family: Georgia;
+  margin: -10px -10px 20px -10px;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img-div {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#quote {
+  font-style: italic;
+  font-size: .9em;
+  color: #555;
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: times new roman
+}
+

@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <title>The Survey of All Survey</title>
+ <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+<h1 id="title">The Survey of All Surveys</h1>
+ <p id="description">Thank you for taking your time to fill out this awesomeness</P>
+
+<section>
+  <form id="survey-form">
+    <fieldset>
+      <Label id="name-label">Name <input id="name" name="name" type="text" required placeholder="Enter your name" /> </label>
+      <br/>
+
+      <Label id="email-label">Email<input id="email" name="email" type="email" required placeholder="Enter your email" /></label>
+      <br/>
+
+      <Label id="number-label">Age <input id="number" type="number" name="age" min="13" max="120" placeholder="Enter your age" >
+      <br/>
+    </fieldset>
+  <fieldset>
+    <label for="dropdown">What is your current role
+    <select id="dropdown">
+      <option>(select one)</option>
+      <option>Worker Bee</option>
+      <option>Super Coder</option>
+      <option>Dabbles</option>
+      <option>other</option>
+    </select>
+  </fieldset>
+  <fieldset>
+    <label for="radio">Would you recommend us?
+      <label for="Yes"><input id="Yes" type="radio" name="recommend" class="inline" checked value="Yes"/> Yes </label>
+      <label for="No"><input id="No" type="radio" name="recommend" value="No" class="inline" /> No </label>
+<label for="Unsure"><input id="Unsure" value="Unsure" type="radio" name="recommend" class="inline" /> Unsure </label>
+  </fieldset>
+ 
+  <fieldset>
+    <legend>What would you like to see next time? Check all that apply</legend>
+ <label for="visualizations">
+ <input id="visualizations" type="checkbox" name="feature" value="visualizations"/> Data Visualizations
+  <input id="visualizations" type="checkbox" name="feature" value="visualizations"/> Forum
+   <input id="visualizations" type="checkbox" name="feature" value="visualizations"/> Additional Courses
+ </label>
+ </fieldset>
+ <fieldset>
+ <label for="comments">Additional Comments
+          <textarea id="bio" name="bio" rows="3" cols="30" ></textarea>
+        </label>
+  </fieldset>
+<input id="submit" type="submit" value="Submit" />
+  </form>
+</section>
+</body>
+</html>
