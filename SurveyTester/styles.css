@@ -2,12 +2,13 @@
 html body {
     height:100%;
   }
+
   
   body {
     width: 100%;
     height: 100vh;
     margin: 0;
-    background-color: rgb(34, 34, 117);
+    background-color: rgb(34, 75, 123);
     color: #f5f6f7;
     font-family: Calibri;
     font-size: 16px;
@@ -19,6 +20,9 @@ html body {
     min-width: 300px;
     margin: 0 auto;
     padding-bottom: 2em;
+    background-color: rgb(84, 25, 74);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    border: 4px solid rgba(99, 96, 99, 0.495);
   }
   
   input,
@@ -32,6 +36,7 @@ html body {
   h1, p {
     margin: 1em auto;
     text-align: center;
+    text-shadow:0 4px 8px rgba(30, 30, 31, 0.805);
   }
   
   .inline {
